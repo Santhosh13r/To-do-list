@@ -1,0 +1,46 @@
+.container{
+background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=600);    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+    background-size: cover;
+    
+ 
+    
+}
+.container h4{
+     font-size: 40px;
+   
+}
+
+.data{
+    font-size: 25px;
+    
+}
+.data input{
+    color: black;
+    box-sizing: content-box;
+    border-radius: 15px;
+    
+}
+.data button{
+    font-size: 15px;
+    border-color: black;
+     border-width:1px;
+     border-style: double;
+     border-radius: 10px;
+}
+.list{
+    list-style: none;
+    list-style-position: outside;
+    font-size: 30px;
+    padding-left: 0%;
+
+}
+.list button{
+    background-color: rgb(201, 55, 55);
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 20px;
+}
