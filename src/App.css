@@ -1,5 +1,6 @@
 .container{
-background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=600);    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(102, 73, 128, 0.679);
+   font-family: 'Times New Roman', Times, serif;
     font-weight: 200;
     text-align: center;
     border-radius: 10px;

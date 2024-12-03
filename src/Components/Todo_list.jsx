@@ -70,17 +70,14 @@ const Todo_list = () => {
 
                         </div>
 
-                        <ol className='list'>
+                        <ol className='list m-5'>
                             {Task.map((Task, index) =>
                                 <li key={index}>
-                                    <span className='text  '>{Task}</span>
+                                    <span className='text'>{Task}</span>
 
-                                    <div className="grid gap-3 ">
-                                    <button className='btn btn-outline-warning m-2 ' onClick={()=>DeleteTask(index)}><i class="fa-solid fa-trash"></i>  </button>
-                                   
+                                    <button className='btn btn-outline-warning m-2 ' onClick={()=>DeleteTask(index)}><i class="fa-solid fa-trash"></i>  </button> 
                                     <button className='btn btn-outline-warning  m-2' onClick={()=>MoveUpTask(index)}><i class="fa-solid fa-arrow-up-long"></i></button>
-                                    <button className='btn btn-outline-warning m-2' onClick={()=>MoveDownTask(index)}><i class="fa-solid fa-angle-down"></i></button>
-                                    </div>
+                                    <button className='btn btn-outline-warning m-2' onClick={()=>MoveDownTask(index)}><i class="fa-solid fa-angle-down"></i></button> 
 
                                     
                                 </li>
